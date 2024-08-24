@@ -1,0 +1,216 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Symbol": {
+      "type": "string"
+    },
+    "AssetType": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "CIK": {
+      "type": "string"
+    },
+    "Exchange": {
+      "type": "string"
+    },
+    "Currency": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Sector": {
+      "type": "string"
+    },
+    "Industry": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "OfficialSite": {
+      "type": "string"
+    },
+    "FiscalYearEnd": {
+      "type": "string"
+    },
+    "LatestQuarter": {
+      "type": "string"
+    },
+    "MarketCapitalization": {
+      "type": "string"
+    },
+    "EBITDA": {
+      "type": "string"
+    },
+    "PERatio": {
+      "type": "string"
+    },
+    "PEGRatio": {
+      "type": "string"
+    },
+    "BookValue": {
+      "type": "string"
+    },
+    "DividendPerShare": {
+      "type": "string"
+    },
+    "DividendYield": {
+      "type": "string"
+    },
+    "EPS": {
+      "type": "string"
+    },
+    "RevenuePerShareTTM": {
+      "type": "string"
+    },
+    "ProfitMargin": {
+      "type": "string"
+    },
+    "OperatingMarginTTM": {
+      "type": "string"
+    },
+    "ReturnOnAssetsTTM": {
+      "type": "string"
+    },
+    "ReturnOnEquityTTM": {
+      "type": "string"
+    },
+    "RevenueTTM": {
+      "type": "string"
+    },
+    "GrossProfitTTM": {
+      "type": "string"
+    },
+    "DilutedEPSTTM": {
+      "type": "string"
+    },
+    "QuarterlyEarningsGrowthYOY": {
+      "type": "string"
+    },
+    "QuarterlyRevenueGrowthYOY": {
+      "type": "string"
+    },
+    "AnalystTargetPrice": {
+      "type": "string"
+    },
+    "AnalystRatingStrongBuy": {
+      "type": "string"
+    },
+    "AnalystRatingBuy": {
+      "type": "string"
+    },
+    "AnalystRatingHold": {
+      "type": "string"
+    },
+    "AnalystRatingSell": {
+      "type": "string"
+    },
+    "AnalystRatingStrongSell": {
+      "type": "string"
+    },
+    "TrailingPE": {
+      "type": "string"
+    },
+    "ForwardPE": {
+      "type": "string"
+    },
+    "PriceToSalesRatioTTM": {
+      "type": "string"
+    },
+    "PriceToBookRatio": {
+      "type": "string"
+    },
+    "EVToRevenue": {
+      "type": "string"
+    },
+    "EVToEBITDA": {
+      "type": "string"
+    },
+    "Beta": {
+      "type": "string"
+    },
+    "52WeekHigh": {
+      "type": "string"
+    },
+    "52WeekLow": {
+      "type": "string"
+    },
+    "50DayMovingAverage": {
+      "type": "string"
+    },
+    "200DayMovingAverage": {
+      "type": "string"
+    },
+    "SharesOutstanding": {
+      "type": "string"
+    },
+    "DividendDate": {
+      "type": "string"
+    },
+    "ExDividendDate": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "Symbol",
+    "AssetType",
+    "Name",
+    "Description",
+    "CIK",
+    "Exchange",
+    "Currency",
+    "Country",
+    "Sector",
+    "Industry",
+    "Address",
+    "OfficialSite",
+    "FiscalYearEnd",
+    "LatestQuarter",
+    "MarketCapitalization",
+    "EBITDA",
+    "PERatio",
+    "PEGRatio",
+    "BookValue",
+    "DividendPerShare",
+    "DividendYield",
+    "EPS",
+    "RevenuePerShareTTM",
+    "ProfitMargin",
+    "OperatingMarginTTM",
+    "ReturnOnAssetsTTM",
+    "ReturnOnEquityTTM",
+    "RevenueTTM",
+    "GrossProfitTTM",
+    "DilutedEPSTTM",
+    "QuarterlyEarningsGrowthYOY",
+    "QuarterlyRevenueGrowthYOY",
+    "AnalystTargetPrice",
+    "AnalystRatingStrongBuy",
+    "AnalystRatingBuy",
+    "AnalystRatingHold",
+    "AnalystRatingSell",
+    "AnalystRatingStrongSell",
+    "TrailingPE",
+    "ForwardPE",
+    "PriceToSalesRatioTTM",
+    "PriceToBookRatio",
+    "EVToRevenue",
+    "EVToEBITDA",
+    "Beta",
+    "52WeekHigh",
+    "52WeekLow",
+    "50DayMovingAverage",
+    "200DayMovingAverage",
+    "SharesOutstanding",
+    "DividendDate",
+    "ExDividendDate"
+  ]
+}

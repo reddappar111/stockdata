@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "type": "string"
+    },
+    "last_updated": {
+      "type": "string"
+    },
+    "top_gainers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ticker": {
+            "type": "string"
+          },
+          "price": {
+            "type": "string"
+          },
+          "change_amount": {
+            "type": "string"
+          },
+          "change_percentage": {
+            "type": "string"
+          },
+          "volume": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "ticker",
+          "price",
+          "change_amount",
+          "change_percentage",
+          "volume"
+        ]
+      }
+    },
+    "top_losers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ticker": {
+            "type": "string"
+          },
+          "price": {
+            "type": "string"
+          },
+          "change_amount": {
+            "type": "string"
+          },
+          "change_percentage": {
+            "type": "string"
+          },
+          "volume": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "ticker",
+          "price",
+          "change_amount",
+          "change_percentage",
+          "volume"
+        ]
+      }
+    },
+    "most_actively_traded": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ticker": {
+            "type": "string"
+          },
+          "price": {
+            "type": "string"
+          },
+          "change_amount": {
+            "type": "string"
+          },
+          "change_percentage": {
+            "type": "string"
+          },
+          "volume": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "ticker",
+          "price",
+          "change_amount",
+          "change_percentage",
+          "volume"
+        ]
+      }
+    }
+  },
+  "required": [
+    "metadata",
+    "last_updated",
+    "top_gainers",
+    "top_losers",
+    "most_actively_traded"
+  ]
+}

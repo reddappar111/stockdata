@@ -1,0 +1,5 @@
+com\trading\stock\model\MostActivelyTraded.class
+com\trading\stock\model\TopLoosersAndGainersData.class
+com\trading\stock\model\TopLoser.class
+com\trading\stock\model\StockOverview.class
+com\trading\stock\model\TopGainer.class
